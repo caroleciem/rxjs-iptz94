@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="fr-FR">
+
+<head>
+	<meta charset="utf-8">
+	<title>Préparation communication Angular / API</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<h1>Préparation communication Angular / API</h1>
+
+	<h2>Quelques rappels sur les tableaux</h2>
+	<p>Soit le tableau suivant : </p>
+	<pre>
+    <code class="inline-code">
+      let names = [];
+    </code>
+  </pre>
+
+	<p>Pour boucler dessus on peut faire : </p>
+	<pre>
+    <code class="inline-code">
+      for (const name of names) {
+        console.log('Coucou ' + name);
+      }
+    </code>
+  </pre>
+
+  <p>Et aussi : </p>
+	<pre>
+    <code class="inline-code">
+      names.forEach(name => console.log('Salut ' + name))
+    </code>
+  </pre>
+  <p>Ici, on appelle la fonction <span class="inline-code">forEach()</span> et l'argument que l'on passe est une fonction !</p>
+
+  <p>Et c'est super <strong>cool</strong> de pouvoir faire ça parce qu'il y a plein de méthodes pratiques qu'on peut "configurer" nous même.</p>
+
+  <p>Par exemple on peut trier :</p>
+  <pre>
+    <code class="inline-code">
+      names.sort((name1, name2) => name2.localeCompare(name1));
+    </code>
+  </pre>
+</body>
+
+</html>

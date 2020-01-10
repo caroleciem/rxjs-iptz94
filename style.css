@@ -1,0 +1,27 @@
+/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css?family=Big+Shoulders+Text|Raleway&display=swap');
+
+body {
+  font-family: Raleway, Cambria, Cochin, Georgia, serif;
+  width: 90%;
+  margin: auto;
+}
+
+h1 {
+  font-family: 'Big Shoulders Text',
+  Arial;
+  color: rgba(51, 90, 107, 1)
+}
+
+h2, h3, h4, h5, h6 {
+  font-family: 'Big Shoulders Text',
+  Arial;
+  color: rgba(22, 139, 178, 1)
+}
+
+.inline-code {
+  font-family: monospace;
+  font-size: 1.3em;
+  color: grey;
+  font-weight: 500;
+}
